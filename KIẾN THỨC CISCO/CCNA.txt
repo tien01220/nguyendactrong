@@ -1,0 +1,47 @@
+- RF45
+- protocol (Giao thuc): là 1 bộ quy tắc đc sử dụng để liên lạc giữa các thiết bị.
+- switches : Bộ chuyển mạch hay thiết bị chuyển mạch là một thiết bị dùng để kết nối các đoạn mạng với nhau theo mô hình mạng hình sao. Theo mô hình này, switch đóng vai trò là thiết bị trung tâm, tất cả các máy tính đều được nối về đây. Switch làm việc như một Bridge nhiều cổng.
+- bộ định tuyến định tuyến mạng IP này sang mạng IP khác.
+- hubs : thiết bị lặp
+- IDS (hệ thống ngăn chặn xâm nhập) is like the DOG: cảnh báo cho bạn có 1 cuộc tấn công sắp diễn ra (nó không tấn công, chỉ báo cho bạn biết)
+- IPS (hệ thống chặn xâm nhập) is like the DOG : khi bị tấn công sẽ chặn luôn, có thể tấn công lại
+---------------------------
+* mô hình OSI gồm 7 lớp (đảo từ 7 về 1):
+    7 Application (ứng dung)	
+    6 presentation (trình bày)
+    5 session (phiên)
+    4 transport (truyền tải)	
+    3 network (mạng)
+    2 data link (liên kết dữ lieu)	
+    1 physical (vậy lý)
+
+* mô hình TCP/IP hiện nay gồm 5 lớp:
+    5 lớp 7
+    4 transport (truyền tải)	
+    3 network (mạng)
+    2 data link (liên kết dữ lieu)	
+    1 physical (vậy lý)
+-------------------------------------
+* lớp 1: bit
+* lớp 2: khung
+* lớp 3: gói()
+* lớp 4: phân đoạn
+* lớp 5 đến lớp 7
+--------------------------------------
+* protocol:
+    + ARP là giao thức phân giải địa chỉ
+    + giao thức truyền tải: TCP, UDP và các dịch vụ khác có phạm vi(0 - 1023)
+    + số cổng người dung có phạm vi(1024 - 49151)
+    + dynamic and/or private có phạm vi(49152 - 65535)
+* 1 số cổng nổi tiếng: 
+    + cổng 80 là HTTP
+    + cổng 21 là FTP
+    + cổng 69 là TFTP
+    + cổng 23 là telnet
+    + cổng 22 là SSH
+* 1 số giao thức nổi tiếng:
+    HTTPS là 443
+--------------------------------------
+- trong ipv4 chúng ta có cái gọi là octet gồm 8 giá trị nhị phân và bắt đầu đếm từ 0(giống cách đếm của mảng)
+- ip của các điện thoại bây giờ được 1 máy chủ cung cấp tự động và được gọi là DHCP(GIAO THỨC CÂU HÌNH MÁY CHỦ ĐỘNG)
+- IP phiên bản 4 trên điện thoại gồm 1 ip tự động, 1 mặt nạ con, 1 cổng mặc định
